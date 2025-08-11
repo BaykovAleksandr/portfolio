@@ -1,14 +1,13 @@
 import './App.css'
-//import Logo from './components/logo/logo';
-//mport styled from "styled-components";
 import Header from './layout/header/Header';
+import Main from './layout/sections/main/Main';
 
 function App() {
     return (
         <div className="App">
-           <Header>
+           <Header/>
             
-           </Header>
+           <Main/>
         </div>
     )
 }
