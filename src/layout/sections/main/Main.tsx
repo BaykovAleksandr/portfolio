@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import styled from "styled-components";
 import photo from "./../../../assets/images/photo.png";
 import { FlexWrapper } from "../../../components/FlexWrapper";
@@ -6,7 +6,10 @@ import { FlexWrapper } from "../../../components/FlexWrapper";
 export default function Main() {
   return (
     <StyledMain>
-      <FlexWrapper justify="space-around" align="center">
+      <FlexWrapper
+        justify="space-around"
+        align="center"
+      >
         <div>
           <span>Hi There</span>
           <Name>I am Aleksandr Baykov</Name>
@@ -20,7 +23,7 @@ export default function Main() {
 }
 
 const StyledMain = styled.main`
-min-height: 100vh;
+min-height: 50vh;
 background-color: #c0abab;
 
 `
