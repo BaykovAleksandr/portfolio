@@ -1,10 +1,11 @@
 //import React from 'react'
-import styled from 'styled-components'
-import { SectionTitle } from '../../../components/SectionTitle'
-import Menu from '../../../components/menu/Menu'
-import { FlexWrapper } from '../../../components/FlexWrapper';
-import Work from './work/Work';
-import socialImg from './../../../assets/images/proj-1.png'
+import styled from "styled-components";
+import { SectionTitle } from "../../../components/SectionTitle";
+import Menu from "../../../components/menu/Menu";
+import { FlexWrapper } from "../../../components/FlexWrapper";
+import Work from "./work/Work";
+import socialImg from "./../../../assets/images/proj-1.png";
+import bangkok from './../../../assets/images/bangkok.webp'
 
 const items = ["ALL", "JS", "REACT"];
 
@@ -13,21 +14,27 @@ export default function Works() {
     <StyledWorks>
       <SectionTitle>My works</SectionTitle>
       <Menu menuItems={items}></Menu>
-      <FlexWrapper justify='space-between'>
-        <Work title="HTML CSS" text="landingPage" src={socialImg}></Work>
+      <FlexWrapper justify="space-between">
         <Work
-          title="Social Network"
+          title="Vanila JS"
+          text="BANGKOK EXSPRESS"
+          src={bangkok}
+          href="https://transcendent-zabaione-b9aed8.netlify.app/"
+          target="_blank"
+        ></Work>
+        <Work
+          title="HTML CSS JS"
           src={socialImg}
+          target="_blank"
           text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et cum reiciendis numquam autem architecto porro in? Ut, vitae fugiat!"
         ></Work>
-        <Work title="React" src={socialImg}></Work>
+        <Work title="React" src={socialImg} target="_blank"></Work>
       </FlexWrapper>
     </StyledWorks>
   );
 }
 
-
 const StyledWorks = styled.section`
-min-height: 100vh;
-background-color: #88a7c0;
-`
+  min-height: 100vh;
+  background-color: #88a7c0;
+`;
