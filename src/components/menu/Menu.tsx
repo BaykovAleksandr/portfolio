@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 
-export default function Menu(props: {menuItems: Array<string>}) {
+export default function HeaderMenu(props: {menuItems: Array<string>}) {
   return (
     <StyledMenu>
       <ul>
