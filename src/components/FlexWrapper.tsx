@@ -15,4 +15,5 @@ export const FlexWrapper = styled.section<FlexWrapperPropsType>`
   justify-content: ${(props) => props.justify || "space-around"};
   align-items: ${props => props.align || 'stretch'};
   flex-wrap: ${props => props.wrap || 'nowrap'};
+  height: 100%;
 `;
