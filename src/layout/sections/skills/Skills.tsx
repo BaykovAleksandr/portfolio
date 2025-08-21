@@ -38,4 +38,5 @@ export default function Skills() {
   );
 }
 
-const StyledSkills = styled.section``;
+const StyledSkills = styled.section`
+`;

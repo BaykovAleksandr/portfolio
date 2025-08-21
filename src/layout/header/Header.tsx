@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <StyledHeader>
       <Container>
-        <FlexWrapper align="center" justify='space-between'>
+        <FlexWrapper align="center" justify='space-between' padding='20px 10px'>
           <Logo />
           <HeaderMenu menuItems={items} />
         </FlexWrapper>

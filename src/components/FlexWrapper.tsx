@@ -6,14 +6,16 @@ type FlexWrapperPropsType = {
   align?: string;
   wrap?: string;
   gap?: string;
+  padding?: string;
 };
 
 export const FlexWrapper = styled.section<FlexWrapperPropsType>`
   display: flex;
   flex-direction: ${(props) => props.direction || "row"};
   justify-content: ${(props) => props.justify || "space-around"};
-  align-items: ${props => props.align || 'stretch'};
-  flex-wrap: ${props => props.wrap || 'nowrap'};
+  align-items: ${(props) => props.align || "stretch"};
+  flex-wrap: ${(props) => props.wrap || "nowrap"};
   height: 100%;
-  gap: ${props => props.gap || '20px'}
+  gap: ${(props) => props.gap || "20px"};
+  padding: ${(props) => props.padding || "100px 0"};
 `;
