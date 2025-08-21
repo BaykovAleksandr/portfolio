@@ -5,7 +5,7 @@ import Menu from "../../../components/menu/Menu";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import Work from "./work/Work";
 import socialImg from "./../../../assets/images/proj-1.png";
-import bangkok from './../../../assets/images/bangkok.webp'
+import bangkok from "./../../../assets/images/bangkok.webp";
 
 const items = ["ALL", "JS", "REACT"];
 
@@ -20,15 +20,14 @@ export default function Works() {
           text="BANGKOK EXSPRESS"
           src={bangkok}
           href="https://transcendent-zabaione-b9aed8.netlify.app/"
-          target="_blank"
+          target={"_blank"}
         ></Work>
         <Work
           title="HTML CSS JS"
           src={socialImg}
-          target="_blank"
           text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et cum reiciendis numquam autem architecto porro in? Ut, vitae fugiat!"
         ></Work>
-        <Work title="React" src={socialImg} target="_blank"></Work>
+        <Work title="React" src={socialImg}></Work>
       </FlexWrapper>
     </StyledWorks>
   );

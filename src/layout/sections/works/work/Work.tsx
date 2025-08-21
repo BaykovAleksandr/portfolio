@@ -8,7 +8,7 @@ type WorkPropsType = {
 	src?: string;
   href?: string;
   code?: string;
-  target: "_blank"
+  target?: string; 
 
 }
 
@@ -18,7 +18,9 @@ export default function Work(props: WorkPropsType) {
       <Image src={props.src} alt="" />
       <Title>{props.title}</Title>
       <Text>{props.text}</Text>
-      <Link href={props.href}>demo</Link>
+      <Link href={props.href} target={props.target}>
+        demo
+      </Link>
       <Link href={props.code}>code</Link>
     </StyledWork>
   );
