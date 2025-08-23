@@ -39,4 +39,5 @@ export default function Skills() {
 }
 
 const StyledSkills = styled.section`
+  min-height: 100vh;
 `;

@@ -37,5 +37,5 @@ export default function Works() {
 }
 
 const StyledWorks = styled.section`
-  
+ 
 `;

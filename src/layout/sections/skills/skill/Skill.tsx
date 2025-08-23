@@ -34,7 +34,7 @@ const SkillText = styled.p`
 
 const StyledSkill = styled.div`
   width: 380px;
-  padding: 62px 20px 40px;
+  padding: 0px 20px;
 `;
 
 export const IconWrapper = styled.div`
