@@ -4,15 +4,17 @@ import Logo from "../../components/logo/logo";
 import HeaderMenu from ".././header/headerMenu/HeaderMenu";
 import { Container } from "../../components/Container";
 import { FlexWrapper } from "../../components/FlexWrapper";
+import MobileMenu from './mobileMenu/MobileMenu';
 const items = ["Home", "Skills", "Works", "Testimony", "Contact"];
 
 export default function Header() {
   return (
     <StyledHeader>
       <Container>
-        <FlexWrapper align="center" justify='space-between' padding='20px 10px'>
+        <FlexWrapper align="center" justify="space-between" padding="20px 10px">
           <Logo />
           <HeaderMenu menuItems={items} />
+          <MobileMenu menuItems={items} />
         </FlexWrapper>
       </Container>
     </StyledHeader>

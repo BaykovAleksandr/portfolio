@@ -10,4 +10,9 @@ export const theme = {
 
     placeholderColor: '#495057'
   },
+
+  media: {
+    tablet: '(width < 768px)',
+    mobile: '(width < 576px)'
+  }
 };
