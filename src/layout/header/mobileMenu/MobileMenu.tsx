@@ -8,7 +8,7 @@ export default function MobileMenu(props: { menuItems: Array<string> }) {
       <BurgerButton isOpen={true}>
         <span></span>
       </BurgerButton>
-      <MobileMenuPopap isOpen={true}>
+      <MobileMenuPopap isOpen={false}>
         <ul>
           {props.menuItems.map((item, index) => (
             <ListItem key={index}>
