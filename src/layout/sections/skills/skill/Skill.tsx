@@ -2,6 +2,7 @@
 import { FlexWrapper } from "../../../../components/FlexWrapper";
 import Icon from "../../../../components/icon/Icon";
 import styled from "styled-components";
+import { theme } from '../../../../styles/Theme';
 
 type SkillPropsType = {
   iconId: string;
@@ -33,8 +34,13 @@ const SkillText = styled.p`
 `;
 
 const StyledSkill = styled.div`
-  width: 380px;
+  width: 330px;
+  flex-grow: 1;
   padding: 0px 20px;
+
+  @media ${theme.media.mobile} {
+    padding: 62px 0 40px;
+  }
 `;
 
 export const IconWrapper = styled.div`
