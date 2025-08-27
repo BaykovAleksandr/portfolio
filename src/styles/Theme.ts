@@ -13,6 +13,7 @@ export const theme = {
 
   media: {
     tablet: '(width < 768px)',
-    mobile: '(width < 576px)'
+    mobile: '(width < 576px)',
+    desktop: '(width > 1140px )'
   }
 };
