@@ -7,6 +7,7 @@ type FlexWrapperPropsType = {
   wrap?: string;
   gap?: string;
   padding?: string;
+  background?: string;
 };
 
 export const FlexWrapper = styled.section<FlexWrapperPropsType>`
@@ -18,4 +19,5 @@ export const FlexWrapper = styled.section<FlexWrapperPropsType>`
   height: 100%;
   gap: ${(props) => props.gap || "20px"};
   padding: ${(props) => props.padding || "100px 0"};
+  background-color: ${props => props.background || 'inherit !important'};
 `;

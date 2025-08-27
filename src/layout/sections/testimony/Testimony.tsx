@@ -7,24 +7,27 @@ import Slider from '../../../components/slider/Slider'
 import { FlexWrapper } from '../../../components/FlexWrapper'
 import { IconWrapper } from '../skills/skill/Skill'
 import { theme } from '../../../styles/Theme'
+import { Container } from '../../../components/Container'
 
 export default function Testimony() {
   return (
     <StyledTestimony>
-      <FlexWrapper direction="column" align="center">
-        <SectionTitle>Feedback</SectionTitle>
-        <IconWrapper>
-          <Icon iconId="quotes" />
-        </IconWrapper>
-        <Slider />
-      </FlexWrapper>
+      <Container>
+        <FlexWrapper direction="column" align="center">
+          <SectionTitle>Feedback</SectionTitle>
+          <IconWrapper>
+            <Icon iconId="quotes" />
+          </IconWrapper>
+          <Slider />
+        </FlexWrapper>
+      </Container>
     </StyledTestimony>
   );
 }
 
-const StyledTestimony = styled.div`
+const StyledTestimony = styled.section`
 min-height: 50vh;
-background-color: ${theme.colors.accent};
+background-color: ${theme.colors.secondaryBg};
 
 ${IconWrapper} 
 {

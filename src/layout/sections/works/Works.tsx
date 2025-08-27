@@ -28,7 +28,7 @@ export default function Works() {
             href="#"
             title="HTML CSS JS"
             src={socialImg}
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et cum reiciendis numquam autem architecto porro in? Ut, vitae fugiat!"
+            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et ?"
           ></Work>
         </FlexWrapper>
       </Container>
