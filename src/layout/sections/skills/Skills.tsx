@@ -13,12 +13,17 @@ export default function Skills() {
           <Skill
             iconId="code"
             title="HTML5"
-            text="HTML5 (Hypertext Markup Language 5) is a markup language used for structuring and presenting hypertext documents on the World Wide Web."
+            text="HTML5 (Hypertext Markup Language 5) is a markup language used for structuring and presenting hypertext documents on the World Wide Web. It was the fifth and final major HTML version that is now a retired World Wide Web Consortium (W3C) recommendation. "
           />
           <Skill
             iconId="css"
             title="CSS3"
             text="Cascading Style Sheets (level 3) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
+          />
+          <Skill
+            iconId="JS"
+            title="JavaScript"
+            text="A programminglanguage and core technology of the web platform, alongside HTML and CSS. Ninety-nine percent of websites on the World Wide Web use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code."
           />
           <Skill
             iconId="react"
@@ -34,11 +39,6 @@ export default function Skills() {
             iconId="styled"
             title="Styled Components"
             text="Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components. It also removes the mapping between components and styles – using components as a low-level styling construct could not be easier!"
-          />
-          <Skill
-            iconId="figma"
-            title="FIGMA"
-            text="Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows."
           />
         </FlexWrapper>
       </Container>

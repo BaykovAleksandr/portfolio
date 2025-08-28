@@ -26,7 +26,6 @@ export default function Slider() {
 }
 
 const StyledSlider = styled.div`
-  border: 1px solid red;
   max-width: 500px;
 `;
 
