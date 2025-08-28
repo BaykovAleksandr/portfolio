@@ -36,7 +36,7 @@ const SkillText = styled.p`
 const StyledSkill = styled.div`
   width: 330px;
   flex-grow: 1;
-  padding: 0px 20px;
+  padding: 0 20px;
 
   @media ${theme.media.mobile} {
     padding: 62px 0 40px;

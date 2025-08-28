@@ -5,7 +5,7 @@ import HeaderMenu from ".././header/headerMenu/HeaderMenu";
 import { Container } from "../../components/Container";
 import { FlexWrapper } from "../../components/FlexWrapper";
 import MobileMenu from './mobileMenu/MobileMenu';
-const items = ["Home", "Skills", "Works", "Testimony", "Contact"];
+const items = ["Home", "Skills", "Works", "Feedback", "Contact"];
 
 export default function Header() {
   return (

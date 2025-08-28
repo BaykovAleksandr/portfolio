@@ -41,7 +41,7 @@ font-weight: 600;
 font-size: 16px;
 letter-spacing: 1px;
 text-transform: uppercase;
-margin-top: 22px;
+margin: 22px 0 32px;
 display: inline-block;
 `;
 
