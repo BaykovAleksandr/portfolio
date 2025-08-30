@@ -5,7 +5,7 @@ import { SectionTitle } from '../../../components/SectionTitle'
 import Icon from '../../../components/icon/Icon'
 import Slider from '../../../components/slider/Slider'
 import { FlexWrapper } from '../../../components/FlexWrapper'
-import { IconWrapper } from '../skills/skill/Skill'
+import { IconWrapper } from '../../sections/skills/Skills_Styles'
 import { theme } from '../../../styles/Theme'
 import { Container } from '../../../components/Container'
 
