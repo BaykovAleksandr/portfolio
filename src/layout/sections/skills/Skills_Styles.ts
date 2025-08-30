@@ -1,6 +1,5 @@
-import styled from 'styled-components';
-import { theme } from '../../../styles/Theme';
-
+import styled from "styled-components";
+import { theme } from "../../../styles/Theme";
 
 const Skills = styled.section``;
 const SkillTitle = styled.h3`
@@ -22,7 +21,7 @@ const Skill = styled.div`
   }
 `;
 
-export const IconWrapper = styled.div`
+const IconWrapper = styled.div`
   position: relative;
   &::before {
     content: "";
@@ -38,6 +37,4 @@ export const IconWrapper = styled.div`
   }
 `;
 
-
-
-export const S = {Skills, SkillText, SkillTitle, Skill, IconWrapper}
+export const S = { Skills, SkillText, SkillTitle, Skill, IconWrapper };
