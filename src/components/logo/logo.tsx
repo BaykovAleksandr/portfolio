@@ -1,10 +1,9 @@
-import React from 'react'
-import Icon from '../icon/Icon'
+import { Icon } from "../icon/Icon";
 
-export default function Logo() {
+export const Logo: React.FC = () => {
   return (
-	<a href="">
-        <Icon iconId={'css'}/>
-	</a>
-  )
-}
+    <a href="">
+      <Icon iconId={"react"} />
+    </a>
+  );
+};

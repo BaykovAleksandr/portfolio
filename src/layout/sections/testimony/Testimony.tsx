@@ -1,6 +1,6 @@
 import { SectionTitle } from "../../../components/SectionTitle";
-import Icon from "../../../components/icon/Icon";
-import Slider from "../../../components/slider/Slider";
+import { Icon } from "../../../components/icon/Icon";
+import { Slider } from "../../../components/slider/Slider";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { S } from "../../sections/skills/Skills_Styles";
 import { Container } from "../../../components/Container";

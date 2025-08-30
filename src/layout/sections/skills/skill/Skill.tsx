@@ -1,5 +1,5 @@
 import { FlexWrapper } from "../../../../components/FlexWrapper";
-import Icon from "../../../../components/icon/Icon";
+import { Icon } from "../../../../components/icon/Icon";
 import { S } from "../Skills_Styles";
 
 type SkillPropsType = {

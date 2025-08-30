@@ -1,4 +1,4 @@
-import Logo from "../../components/logo/logo";
+import { Logo } from "../../components/logo/logo";
 import { DesktopMenu } from "./headerMenu/desktopMenu/DesktopMenu";
 import { Container } from "../../components/Container";
 import { FlexWrapper } from "../../components/FlexWrapper";

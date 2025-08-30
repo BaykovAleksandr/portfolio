@@ -1,4 +1,4 @@
-import Icon from "../../components/icon/Icon";
+import { Icon } from "../../components/icon/Icon";
 import { FlexWrapper } from "../../components/FlexWrapper";
 import { S } from "../footer/Footer_Styles";
 
