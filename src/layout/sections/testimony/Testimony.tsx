@@ -1,15 +1,12 @@
-//import React from 'react'
-
-import styled from "styled-components";
 import { SectionTitle } from "../../../components/SectionTitle";
 import Icon from "../../../components/icon/Icon";
 import Slider from "../../../components/slider/Slider";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { S } from "../../sections/skills/Skills_Styles";
-import { theme } from "../../../styles/Theme";
 import { Container } from "../../../components/Container";
+import { StyledTestimony } from "./Testimony_Styles";
 
-export default function Testimony() {
+export const Testimony: React.FC = () => {
   return (
     <StyledTestimony>
       <Container>
@@ -23,13 +20,4 @@ export default function Testimony() {
       </Container>
     </StyledTestimony>
   );
-}
-
-const StyledTestimony = styled.section`
-  min-height: 50vh;
-  background-color: ${theme.colors.secondaryBg};
-
-  ${S.IconWrapper} {
-    margin: 40px 0 72px;
-  }
-`;
+};
