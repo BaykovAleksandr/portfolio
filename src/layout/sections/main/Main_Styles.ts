@@ -53,6 +53,8 @@ const MainTitle = styled.h1`
     Fmin: 20,
   })}
   text-align: start;
+
+  p {display: none}
 `;
 
 const Name = styled.h2`
