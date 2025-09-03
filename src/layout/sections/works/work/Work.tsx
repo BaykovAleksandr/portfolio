@@ -1,5 +1,4 @@
 import { Link } from "../../../../components/Link";
-import { Button } from "../../../../components/Button";
 import { S } from "../Works_Styles";
 
 type WorkPropsType = {
@@ -14,10 +13,11 @@ type WorkPropsType = {
 export const Work: React.FC<WorkPropsType> = (props: WorkPropsType) => {
   return (
     <S.Work>
-      <S.ImageWrapper>
-        <S.Image src={props.src} alt="" />
-        <Button>VIEW PROJECT</Button>
-      </S.ImageWrapper>
+      <Link href={props.href} target={props.target} noUnderline>
+        <S.ImageWrapper>
+          <S.Image src={props.src} alt="" />
+        </S.ImageWrapper>
+      </Link>
 
       <S.Description>
         <S.Title>{props.title}</S.Title>
