@@ -8,7 +8,7 @@ import { StyledTestimony } from "./Testimony_Styles";
 
 export const Testimony: React.FC = () => {
   return (
-    <StyledTestimony>
+    <StyledTestimony id={"feedback"}>
       <Container>
         <FlexWrapper direction="column" align="center">
           <SectionTitle>Feedback</SectionTitle>
