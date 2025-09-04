@@ -8,12 +8,16 @@ export const theme = {
 
     borderColor: "#4A4A4A",
 
-    placeholderColor: '#495057'
+    placeholderColor: "#495057",
   },
 
   media: {
-    tablet: '(width < 768px)',
-    mobile: '(width < 576px)',
-    desktop: '(width > 1140px )'
-  }
+    tablet: "(width < 768px)",
+    mobile: "(width < 576px)",
+    desktop: "(width > 1140px )",
+  },
+
+  animations: {
+    transition: "0.2s ease-in-out",
+  },
 };

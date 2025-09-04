@@ -38,8 +38,9 @@ const ImageWrapper = styled.div`
     top: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
     opacity: 0;
+    transition: ${theme.animations.transition};
   }
 
   &:hover {

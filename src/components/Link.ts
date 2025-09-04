@@ -1,5 +1,5 @@
+import { theme } from './../styles/Theme';
 import styled, { css } from "styled-components";
-import { theme } from "../styles/Theme";
 
 export const Link = styled.a<{ active?: boolean; noUnderline?: boolean }>`
   font-family: 400px;
@@ -28,8 +28,10 @@ export const Link = styled.a<{ active?: boolean; noUnderline?: boolean }>`
     left: 0;
     right: 0;
     z-index: -1;
+    height: 0;
     background-color: ${theme.colors.accent};
     height: ${(props) => (props.active && !props.noUnderline ? "10px" : "0")};
+    transition: ${theme.animations.transition}
 
     ${(props) =>
       props.active &&
