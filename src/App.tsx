@@ -1,4 +1,5 @@
 import "./App.css";
+import { GoTopBtn } from './components/goTopBtn/GoTopBtn';
 import { Footer } from "./layout/footer/Footer";
 import { Header } from "./layout/header/Header";
 import { Contact } from "./layout/sections/contacts/Contacts";
@@ -19,6 +20,9 @@ function App() {
       <Contact />
       <Slogan />
       <Footer />
+      <a href={"#home"}>
+        <GoTopBtn />
+      </a>
     </div>
   );
 }
