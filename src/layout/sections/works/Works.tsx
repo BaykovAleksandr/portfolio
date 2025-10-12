@@ -23,12 +23,12 @@ const tabsItems: Array<{
 const worksData = [
   {
     title: "BANGKOK EXSPRESS",
-    text: "Vanilla JS Project (slider, carousel menu, filtering, adding to cart)",
+    text: "Vanilla JS Project (slider, carousel menu, filtering, drag and drop)",
     src: bangkok,
-    href: "https://transcendent-zabaione-b9aed8.netlify.app/",
+    href: "https://tangerine-truffle-9cb2fb.netlify.app/",
     target: "_blank",
     type: "js",
-    id: 1
+    id: 1,
   },
   {
     href: "#",
@@ -36,7 +36,7 @@ const worksData = [
     src: socialImg,
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et ?",
     type: "react",
-    id: 2
+    id: 2,
   },
 ];
 
@@ -67,22 +67,29 @@ export const Works: React.FC = () => {
           changeFilterStatus={changeFilterStatus}
           currentFilterStatus={currentFilterStatus}
         ></TabMenu>
-        <FlexWrapper justify="space-between" align="flex-start" wrap="wrap"><AnimatePresence>
-          {filteredWorks.map((work) => {
-            return (
-              <motion.div style={{width: '330px',
-                flexGrow: 1, maxWidth: '540px'}} exit={{ opacity: 1 }} initial={{opacity: 0}} animate={{opacity: 1}} layout key={work.id}>
-                <Work
-                  title={work.title}
-                  text={work.text}
-                  src={work.src}
-                  href={work.href}
+        <FlexWrapper justify="space-between" align="flex-start" wrap="wrap">
+          <AnimatePresence>
+            {filteredWorks.map((work) => {
+              return (
+                <motion.div
+                  style={{ width: "330px", flexGrow: 1, maxWidth: "540px" }}
+                  exit={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  layout
                   key={work.id}
-                  target={work.target}
-                />
-              </motion.div>
-            );
-          })}
+                >
+                  <Work
+                    title={work.title}
+                    text={work.text}
+                    src={work.src}
+                    href={work.href}
+                    key={work.id}
+                    target={work.target}
+                  />
+                </motion.div>
+              );
+            })}
           </AnimatePresence>
         </FlexWrapper>
       </Container>
