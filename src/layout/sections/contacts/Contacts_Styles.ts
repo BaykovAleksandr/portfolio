@@ -37,7 +37,14 @@ const Field = styled.input`
     outline: 1px solid ${theme.colors.borderColor};
   }
 `;
+const ErrorMessage = styled.span`
+  color: ${theme.colors.font};
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: -8px;
+`;
+
 
 export const S = {
-	Field, Contacts, Form
+	Field, Contacts, Form, ErrorMessage
 }
