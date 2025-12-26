@@ -3,6 +3,7 @@ import { FlexWrapper } from "../../../components/FlexWrapper";
 import { Work } from "./work/Work";
 import socialImg from "./../../../assets/images/proj-1.png";
 import bangkok from "./../../../assets/images/bangkok.webp";
+import idea from "./../../../assets/images/startapy_eto_zlo_ili_blago_chast_1-01.jpg"
 import { Container } from "../../../components/Container";
 import TabMenu, { TabsStatusType } from "./tabMenu/TabMenu";
 import { S } from "./Works_Styles";
@@ -37,6 +38,15 @@ const worksData = [
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et ?",
     type: "react",
     id: 2,
+  },
+  {
+    href: "https://www.the-idea-nick.ru/",
+    title: "IDEA-NICK",
+    src: idea,
+    text: "React, Express, Postgres",
+    target: "_blank",
+    type: "react",
+    id: 3,
   },
 ];
 
