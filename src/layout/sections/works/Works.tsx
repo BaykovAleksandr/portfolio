@@ -1,9 +1,9 @@
 import { SectionTitle } from "../../../components/SectionTitle";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { Work } from "./work/Work";
-import socialImg from "./../../../assets/images/proj-1.png";
+import socialImg from "./../../../assets/images/todo.png";
 import bangkok from "./../../../assets/images/bangkok.webp";
-import idea from "./../../../assets/images/startapy_eto_zlo_ili_blago_chast_1-01.jpg"
+import idea from "./../../../assets/images/startapy_eto_zlo_ili_blago_chast_1-01.jpg";
 import { Container } from "../../../components/Container";
 import TabMenu, { TabsStatusType } from "./tabMenu/TabMenu";
 import { S } from "./Works_Styles";
@@ -30,14 +30,17 @@ const worksData = [
     target: "_blank",
     type: "js",
     id: 1,
+    code: "https://github.com/BaykovAleksandr/jsbasic-20250515_baykov-aleksandr",
   },
   {
-    href: "#",
-    title: "HTML CSS JS",
+    href: "https://baykovaleksandr.github.io/ToDoList/",
+    title: "Todo list, you know",
     src: socialImg,
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, et ?",
+    text: "React, RTK, MUI, ZOD",
     type: "react",
     id: 2,
+    target: "_blank",
+    code: "https://github.com/BaykovAleksandr/ToDoList",
   },
   {
     href: "https://www.the-idea-nick.ru/",
@@ -47,6 +50,7 @@ const worksData = [
     target: "_blank",
     type: "react",
     id: 3,
+    code: "https://github.com/BaykovAleksandr/fullstack-ideanick",
   },
 ];
 
@@ -96,6 +100,7 @@ export const Works: React.FC = () => {
                     href={work.href}
                     key={work.id}
                     target={work.target}
+                    code={work.code}
                   />
                 </motion.div>
               );
