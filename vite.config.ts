@@ -8,6 +8,13 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    }
+  },
   resolve: {
     alias: {
       "@": "/src",
