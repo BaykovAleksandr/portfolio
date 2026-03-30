@@ -3,7 +3,7 @@ import {SectionTitle} from '../../../components/SectionTitle'
 import {Button} from '../../../components/Button'
 import {Container} from '../../../components/Container';
 import {FlexWrapper} from '../../../components/FlexWrapper';
-import cv from '../../../assets/images/cv.pdf'
+import cv from '../../../assets/images/AQA Байков Александр (1).pdf'
 import {Link} from "../../../components/Link.ts";
 
 
